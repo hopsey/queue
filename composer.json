@@ -1,0 +1,20 @@
+{
+    "name": "hopsey/queue",
+    "version": "0.0.1",
+    "require": {
+        "php": ">=7.0",
+        "psr/log": "^1.0",
+        "zendframework/zend-log": "^2.9"
+    },
+    "authors": [
+        {
+            "name": "Tomasz Chmielewski",
+            "email": "chmielewski.thomas@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Queue\\": "src/Queue"
+        }
+    }
+}
